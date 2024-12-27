@@ -10,11 +10,11 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <div className="space-y-2">
-              <a href="mailto:starlinker.com@gmail.com" className="flex items-center space-x-2 hover:text-beige-300">
+              <p className="flex items-center space-x-2">
                 <Mail className="h-5 w-5" />
                 <span>starlinker.com@gmail.com</span>
-              </a>
-              <p>123 Starlinker Avenue, Space City, Earth</p>
+              </p>
+              <p>Lekki Lagos, Nigeria.</p>
             </div>
           </div>
 
@@ -22,10 +22,10 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <div className="space-y-2">
-              <a href="/about" className="hover:text-beige-300">About Us</a>
-              <a href="/services" className="hover:text-beige-300">Services</a>
-              <a href="/careers" className="hover:text-beige-300">Careers</a>
-              <a href="/contact" className="hover:text-beige-300">Contact</a>
+              <a href="/about" className="hover:text-beige-300 block">About Us</a>
+              <a href="/services" className="hover:text-beige-300 block">Services</a>
+              <a href="/careers" className="hover:text-beige-300 block">Careers</a>
+              <a href="/contact" className="hover:text-beige-300 block">Contact</a>
             </div>
           </div>
 
