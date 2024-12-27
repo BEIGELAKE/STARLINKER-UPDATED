@@ -5,12 +5,11 @@ import { Satellite } from "lucide-react";
 export function Hero() {
   return (
     <div className="relative h-[600px] flex items-center">
-  <video
-    className="absolute inset-0 z-0 w-full h-full object-cover"
-    src="/bck21.webm" // Path to your video file
-    autoPlay
-    loop
-  />
+      <img
+        className="absolute inset-0 z-0 w-full h-full object-cover"
+        src="/bck.gif” // Path to your image
+        alt="Background"
+      />
 </div>
 
       <div className="container mx-auto px-4 z-10">
