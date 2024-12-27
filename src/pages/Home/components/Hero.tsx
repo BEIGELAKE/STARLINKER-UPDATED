@@ -4,14 +4,15 @@ import { Satellite } from "lucide-react";
 
 export function Hero() {
   return (
-    <div className="relative h-[600px] flex items-center">
-      <video
-        className="absolute inset-0 z-0 w-full h-full object-cover"
-        src="./public/media11.mp4" 
-        autoPlay
-        loop
-        muted
-      />
+  <div className="relative h-[600px] flex items-center">
+  <iframe
+    className="absolute inset-0 z-0 w-full h-full object-cover"
+    src="https://www.youtube.com/embed/rMP3XOS1Zv4?autoplay=1&loop=1&muted=1"
+    frameBorder="0"
+    allow="autoplay; loop; muted; encrypted-media"
+    allowFullScreen
+  ></iframe>
+</div>
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl">
           <div className="flex items-center gap-3 mb-6">
