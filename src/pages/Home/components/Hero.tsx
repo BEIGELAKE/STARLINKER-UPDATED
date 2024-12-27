@@ -8,7 +8,7 @@ export function Hero() {
       <img
         className="absolute inset-0 z-0 w-full h-full object-cover"
          // Path to your image
-        src="/bck.gif" // Path to your image
+        src="/bck.webp" // Path to your image
         alt="Background"
       />
 </div>
