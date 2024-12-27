@@ -7,7 +7,7 @@ export function Hero() {
     <div className="relative h-[600px] flex items-center">
   <video
     className="absolute inset-0 z-0 w-full h-full object-cover"
-    src="/media1.webm" // Path to your video file
+    src="/bck21.webm" // Path to your video file
     autoPlay
     loop
     muted
