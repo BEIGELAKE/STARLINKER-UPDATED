@@ -13,7 +13,7 @@ export function Hero() {
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl">
           <div className="flex items-center gap-3 mb-6">
-            <Satellite className="h-12 w-12 text-beige-300" />
+            <img src="logo1.jpeg" alt="Logo" className="h-12 w-12" />
             <h1 className="text-4xl md:text-5xl font-bold">STARLINKER</h1>
           </div>
           <p className="text-xl md:text-2xl mb-8">
