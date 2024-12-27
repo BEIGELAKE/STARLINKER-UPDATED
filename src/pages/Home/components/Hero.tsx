@@ -7,7 +7,7 @@ export function Hero() {
     <div className="relative h-[600px] flex items-center">
       <video
         className="absolute inset-0 z-0 w-full h-full object-cover"
-        src="./media/media1.mp4" 
+        src="./media/media11.mp4" 
         autoPlay
         loop
         muted
