@@ -4,10 +4,9 @@ import { Satellite } from "lucide-react";
 
 export function Hero() {
   return (
-    <div className="relative h-[600px] flex items-center">
+     <div className="relative h-[600px] flex items-center">
       <img
         className="absolute inset-0 z-0 w-full h-full object-cover"
-         // Path to your image
         src="/bck.webp" // Path to your image
         alt="Background"
       />
