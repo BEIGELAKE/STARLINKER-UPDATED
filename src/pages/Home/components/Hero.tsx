@@ -10,7 +10,6 @@ export function Hero() {
     src="/bck21.webm" // Path to your video file
     autoPlay
     loop
-    muted
   />
 </div>
 
