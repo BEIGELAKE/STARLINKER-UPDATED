@@ -5,14 +5,12 @@ import { Satellite } from "lucide-react";
 export function Hero() {
   return (
   <div className="relative h-[600px] flex items-center">
-  <iframe
-    className="absolute inset-0 z-0 w-full h-full object-cover"
-    src="https://www.youtube.com/embed/rMP3XOS1Zv4?autoplay=1&loop=1&muted=1"
-    frameBorder="0"
-    allow="autoplay; loop; muted; encrypted-media"
-    allowFullScreen
-  ></iframe>
-</div>
+      <img
+        className="absolute inset-0 z-0 w-full h-full object-cover"
+        src="./public/backg.jpg" // Path to your image
+        alt="Background"
+      />
+      <div className="container mx-auto px-4 z-10">
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl">
           <div className="flex items-center gap-3 mb-6">
