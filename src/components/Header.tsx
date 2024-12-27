@@ -10,7 +10,7 @@ export function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Satellite className="h-8 w-8 text-beige-300" />
+            <img src="./public/logo1.jpeg" alt="Logo" className="h-8 w-8" />
             <span className="text-2xl font-bold">STARLINKER</span>
           </Link>
 
