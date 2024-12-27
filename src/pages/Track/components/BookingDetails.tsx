@@ -8,7 +8,7 @@ interface BookingDetailsProps {
 export function BookingDetails({ booking }: BookingDetailsProps) {
   return (
     <>
-      <h6 className="text-red-500 font-medium mb-4">
+      <h6 className="text-orange-500 font-medium mb-4">
         Please copy and store your Booking Code
       </h6>
       <div className="bg-gray-900 rounded-lg p-8">
