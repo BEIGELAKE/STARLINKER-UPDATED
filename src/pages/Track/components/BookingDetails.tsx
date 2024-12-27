@@ -9,6 +9,7 @@ export function BookingDetails({ booking }: BookingDetailsProps) {
   return (
     <div className="bg-gray-900 rounded-lg p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <h6>Please copy and store your Booking Code</h6>
         <div>
           <h3 className="text-xl font-semibold mb-4">Booking Information</h3>
           <div className="space-y-3">
