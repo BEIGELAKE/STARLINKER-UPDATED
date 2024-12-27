@@ -19,10 +19,10 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-beige-300">
+              <a href="https://www.instagram.com/starlinker_com?utm_source=qr&igsh=NG1iZnI2cWQxbG1z" className="hover:text-beige-300">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-beige-300">
+              <a href="https://x.com/STARLINKER_COM?t=9Udd9WMBA6qraMItY1gsxg&s=09" className="hover:text-beige-300">
                 <Twitter className="h-6 w-6" />
               </a>
             </div>
