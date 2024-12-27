@@ -7,7 +7,7 @@ export function Hero() {
     <div className="relative h-[600px] flex items-center">
       <img
         className="absolute inset-0 z-0 w-full h-full object-cover"
-        src="./public/bckg.jpg" // Path to your image
+        src="/backg.jpg" // Path to your image
         alt="Background"
       />
       <div className="container mx-auto px-4 z-10">
