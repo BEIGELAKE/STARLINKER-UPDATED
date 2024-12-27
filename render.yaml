@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: starlinker # Change this to your desired service name
+    runtime: node # Ensure this is correct for your project
+    env: static
+    buildCommand: npm install && npm run build # Adjust if your build process is different
+    startCommand: npm start # Update if your start command is different
+    staticPublishPath: ./dist # Ensure this path points to your build output directory
+    envVars:
+      - key: NODE_ENV
+        value: production
